@@ -1,0 +1,43 @@
+{
+  "name": "test-solidity-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage",
+    "deploy:local": "hardhat run --network localhost scripts/deployMyContract.js",
+    "local-testnet": "hardhat node",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@types/core-js": "^2.5.5",
+    "@types/regenerator-runtime": "^0.13.1",
+    "babel-loader": "^8.2.3",
+    "chai": "^4.3.6",
+    "core-js": "^3.21.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "html-webpack-plugin": "^5.5.0",
+    "react-hot-loader": "^4.13.0",
+    "regenerator-runtime": "^0.13.9",
+    "solidity-coverage": "^0.7.19",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
